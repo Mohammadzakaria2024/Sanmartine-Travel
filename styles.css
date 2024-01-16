@@ -1,0 +1,263 @@
+
+.navbar{
+    margin-top: 20px;
+   
+
+}
+
+.nav{ 
+    padding: 30px 0px;
+    margin: 0 auto;
+    max-width: 1170px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav h3{
+    position: absolute;
+    margin-left: 65px;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nav img{
+    width: 48px;
+    height: 56px;
+}
+.nav ul{
+    display: flex;
+    margin-left: 40px;
+}
+
+.nav li{
+    display: flex;
+    
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    margin-right: 44px;
+}
+.nav a{
+    text-decoration: none;
+}
+
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.banner img{
+    display: flex;
+    margin-top: 20;
+    background: radial-gradient(rgb(28, 26, 26),);
+    width: 1130px;
+    height: 500px;
+    flex-shrink: 0;
+
+}
+
+.banner-item h1{
+    color: #0a0907;
+    background: rgba(255, 255, 255, 0.30);
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.banner-item p{
+    width: 676px;
+    color: #f9f3f3;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.banner-item input{
+     border: none;
+     text-align: center;
+     font-size: 20px;
+     border-radius: 8px;
+     background: #FFF;
+     width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+     
+}
+
+#cars{
+     padding: 10px;
+     margin: 10px;
+     border: none;
+     text-align: center;
+     font-size: 20px;
+     border-radius: 8px;
+     background: #FFF;
+     width: 174px;
+     height: 52px;
+     flex-shrink: 0;
+}
+
+.from-button{
+    justify-content: space-between;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+    padding: 20px;
+    margin: 10px;
+     display: flex;
+    
+}
+
+.banner-item{
+    margin-left: 200px;
+    align-content: center;
+    position: absolute;
+   top: 22%;
+}
+
+.popular-tours{
+    padding: 90px;
+    margin-top: 30px;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   line-height: 26px; /* 162.5% */
+
+
+}
+
+.popular-heding{
+    width: 525px;
+    padding: 30px;
+}
+
+.popular-heding h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.popular-heding button{
+    text-decoration: none;
+    background-color: tomato;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.popular-tours-img img{
+     margin-right: 20px;
+     border-radius: 16px;
+     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+     width: 540px;
+     height: 550px;
+     flex-shrink: 0;
+}
+
+..your-destination{
+    padding: 20px;
+}
+.your-destination h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.your-destination p{
+   padding: 20px;
+    margin: 0 auto;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.portpolioimge{
+    justify-content: space-between;
+    display: flex;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+      margin: 0 auto;
+      margin-bottom: -190px;
+
+}
+.portpolioimge1{
+   border-radius: 10px solid rgb(233, 10, 10);
+     max-width: 100%;
+    flex-shrink: 0;
+
+    
+}
+.portpolioimge2{
+    border-radius: 16px;
+     max-width: 100%;
+     flex-shrink: 0;
+     
+      
+}
+
+.portpolioimge1 h1{
+    justify-content: center;
+    position: absolute;
+    margin: -160px auto;
+    color: #f7eeee;
+    margin-left: 190px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.portpolioimge2 h1{
+    justify-content: center;
+    position: absolute;
+    margin: -160px auto;
+    color: #f7eeee;
+    margin-left: 190px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+    
