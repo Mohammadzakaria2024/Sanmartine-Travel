@@ -1,4 +1,9 @@
 
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
 .navbar{
     margin-top: 20px;
    
@@ -7,7 +12,6 @@
 
 .nav{ 
     padding: 30px 0px;
-    margin: 0 auto;
     max-width: 1170px;
     align-items: center;
     display: flex;
@@ -29,12 +33,12 @@
 }
 .nav ul{
     display: flex;
-    margin-left: 40px;
+    margin-left: 500px;
+
 }
 
 .nav li{
     display: flex;
-    
     color: var(--Dark-02, #424247);
     text-align: center;
     font-family: Mulish;
@@ -70,7 +74,6 @@
 
 .banner-item h1{
     color: #0a0907;
-    background: rgba(255, 255, 255, 0.30);
     font-family: Mulish;
     font-size: 64px;
     font-style: normal;
@@ -210,6 +213,7 @@ background: rgba(255, 255, 255, 0.30);
 }
 
 .portpolioimge{
+    padding-top: 10px;
     justify-content: space-between;
     display: flex;
     width: 1170px;
@@ -220,7 +224,6 @@ background: rgba(255, 255, 255, 0.30);
 
 }
 .portpolioimge1{
-   border-radius: 10px solid rgb(233, 10, 10);
      max-width: 100%;
     flex-shrink: 0;
 
@@ -260,4 +263,252 @@ background: rgba(255, 255, 255, 0.30);
     font-weight: 800;
     line-height: normal;
 }
+
+.why h1{
+
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.why p{
+
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    padding: 30px;
+
+}
+
+    .card{
+        width: 1170px;
+        flex-shrink: 0;
+        display: flex;
+
+
+    }
+    .card1{
+        
+        width: 573px;
+        height: 284px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+
+    .card1 i{
+        padding: 30px;
+        font-size: 50px;
+        width: 64px;
+         height: 64px;
+         flex-shrink: 0;
+         color: aqua;
+    }
+   .card1 h1{
+
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 10px;
+   }
+
+   .card1 p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px;
+   }
+
+   .card2{
+        
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(240, 103, 114, 0.05);
+
+}
+
+.card2 i{
+    padding: 30px;
+    font-size: 50px;
+    width: 64px;
+     height: 64px;
+     flex-shrink: 0;
+     color: aqua;
+}
+.card2 h1{
+
+color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 10px;
+}
+
+.card2 p{
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding: 10px;
+}
+.carted{
+    display: flex;
+    margin-top: 30px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+
+}
+.carted3{
     
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card3 i{
+    padding: 30px;
+    font-size: 50px;
+    width: 64px;
+     height: 64px;
+     flex-shrink: 0;
+     color: aqua;
+}
+.card3 h1{
+
+color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 10px;
+}
+
+.card3 p{
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding: 10px;
+width: 486px;
+}
+
+.Discounts h1{
+    margin-top: 30px;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.Discounts p{
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 600px){
+
+.nav li {
+    display: none;}
+}
+
+
+@media screen and (max-width: 600px){
+
+    .banner img {
+        min-width: 100%;
+        margin: 0 auto;
+        width: 500px;
+        height: 1170;
+        padding: 0;
+        position: absolute;
+        margin-left: 200px;
+    }
+    .banner-item{
+        width: 500px;
+        height: 1170;
+        flex-shrink: 0;
+    }
+    .banner-item h1{
+        padding: 30px;
+        margin: 0 auto;
+        width: 500px;
+        height: 1170;
+        flex-shrink: 0;
+
+    }
+    .banner-item p{
+        padding: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 1170;
+        flex-shrink: 0;
+    }
+    .from-button{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 500px;
+        height: 1170;
+        flex-shrink: 0;
+    }
+    .popular-tours{
+        flex-direction: column;
+    }
+
+    .your-destination{
+           grid-template-columns: 1fr;
+
+    }
+
+    .portpolioimge2{
+
+        grid-template-columns: 1fr;
+    }
+}
