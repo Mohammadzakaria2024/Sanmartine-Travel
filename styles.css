@@ -151,7 +151,25 @@ background: rgba(255, 255, 255, 0.30);
 
 
 }
+.marque{
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 10px soled tomato;
+    border-radius: 10px;
+    background-color: turquoise;
+    padding: 10px;
 
+}
+.marque button{
+    color: #FFF;
+    font-size: 20px;
+    width: 1150px;
+    border: 10px soled tomato;
+    border-radius: 10px;
+    background-color: turquoise;
+    padding: 10px;
+}
 .popular-heding{
     width: 525px;
     padding: 30px;
@@ -698,6 +716,50 @@ width: 486px;
     border-radius: 16px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
  }
+
+ .foder1{
+    display: inline;
+    display: flex;
+    margin: 0 auto;
+ }
+.fodersection{
+    margin-top: 30px;
+    padding-top: 80px;
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    
+}
+.fodersection0{
+}
+.fodersection img{
+   
+    margin-left: 500px;
+    width: 70px;
+    height: 66.673px;
+    flex-shrink: 0;
+}
+.fodersection h3{
+    margin-right: 400px;
+   font-family: Mulish;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 800;
+  line-height: normal;
+
+}
+.hedersection2 p{
+    width: 769px;
+    color: #ec6307;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
 @media screen and (max-width: 600px){
 
 .nav li {
