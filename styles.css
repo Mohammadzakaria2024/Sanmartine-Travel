@@ -726,14 +726,81 @@ width: 486px;
     margin-top: 30px;
     padding-top: 80px;
     width: 1440px;
-    height: 502px;
+    height: 80px;
     flex-shrink: 0;
     background: rgba(19, 19, 24, 0.05);
     display: flex;
     
 }
-.fodersection0{
+
+.fodersectiontow{
+
+    width: 1440px;
+    height: 80px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+
 }
+.htage{
+    width: 1440px;
+    height: 180px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+
+
+}
+.htage p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    width: 1440px;
+    height: 80px;
+    width: 769px;
+    color: #07070a;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.itage{
+    width: 1440px;
+    height: 100px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    justify-content: center;
+
+
+}
+.itage i{
+    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: tomato;
+    margin: 0px;
+    padding: 20px;
+}
+.fodersectiontow p{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    width: 1440px;
+    height: 80px;
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 .fodersection img{
    
     margin-left: 500px;
@@ -749,16 +816,6 @@ width: 486px;
    font-weight: 800;
   line-height: normal;
 
-}
-.hedersection2 p{
-    width: 769px;
-    color: #ec6307;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
 }
 @media screen and (max-width: 600px){
 
