@@ -237,9 +237,109 @@ background: rgba(255, 255, 255, 0.30);
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-      margin: 0 auto;
-      margin-bottom: -190px;
+    margin: 0 auto;
+    margin-bottom: -190px;
 
+}
+.Newsletter{
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+
+}
+.Newsletterfrom{
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+
+}
+.Newsletter h1{
+    padding: 20px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    align-items: start;
+
+}
+.Newsletter p{
+    padding-left: 20px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.Newsletterimg{
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+.Newsletter input{
+    border: none;
+    padding: 05px;
+    margin: 20px;
+    width: 393px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+.Newsletter button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    height: 52px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    background: #FF5400;
+}
+.box1{ 
+    display: block;
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    text-align-last: center;
+}
+.box1 h6{
+    padding-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+.box1 h1{
+    padding-right: 25px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    align-items: center;
 }
 .portpolioimge1{
      max-width: 100%;
@@ -680,7 +780,7 @@ width: 486px;
     padding: 10px;
 
  }
- Perfect-Place-title p{
+ .Perfect-Place-title p{
     margin-right: -10px;
     width: 532px;
     color: #5A5A5D;
