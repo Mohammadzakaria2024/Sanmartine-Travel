@@ -309,8 +309,12 @@ background: rgba(255, 255, 255, 0.30);
     border-radius: 8px;
     background: #FF5400;
 }
+.container{
+    position: absolute;
+    margin-bottom: 200px;
+}
+
 .box1{ 
-    display: block;
     position: absolute;
     border-radius: 16px;
     background: #FF5400;
@@ -319,6 +323,8 @@ background: rgba(255, 255, 255, 0.30);
     transform: rotate(-19.628deg);
     flex-shrink: 0;
     text-align-last: center;
+    text-align: center;
+
 }
 .box1 h6{
     padding-top: 10px;
